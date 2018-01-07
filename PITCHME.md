@@ -1,4 +1,4 @@
-# ConVGPU: GPU Management Middleware in Container Based Virtualized Environment
+## ConVGPU: GPU Management Middleware in Container Based Virtualized Environment
 
 ### Ein Review von Björn Merschmeier, Sven Krefeld und Tim Prange
 
