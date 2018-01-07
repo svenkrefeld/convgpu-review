@@ -37,7 +37,9 @@
 
 ---?image=assets/image/convgpu.png&opacity=100&size=auto 90%
 
-@title[ConVGPU]
+@title[ConVGPU - Schaubild]
+
+---
 
 ## Analyse
 
