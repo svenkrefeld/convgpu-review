@@ -31,8 +31,6 @@
   + Konsistenz
   + Austauschbarkeit
 
----
-
 - Zwei Hauptbestandteile:
   + CUDA wrapper API module
   + GPU memory scheduler
