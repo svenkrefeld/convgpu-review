@@ -4,12 +4,12 @@
 
 ---
 
-## Inhaltliche Zusammenfassung der Veröffentlichung
+## Inhaltliche Zusammenfassung
 
 ---
 
-## Analyse der Veröffentlichung
+## Analyse
 
 ---
 
-## Beurteilung der Veröffentlichung
+## Beurteilung
