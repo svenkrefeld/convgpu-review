@@ -1,15 +1,48 @@
-# ConVGPU: GPU Management Middleware in Container Based Virtualized Environment
+# ConVGPU
 
-### Ein Review von Björn Merschmeier, Sven Krefeld und Tim Prange
-
----
-
-## Inhaltliche Zusammenfassung der Veröffentlichung
+### GPU Management Middleware in Container Based Virtualized Environment
 
 ---
 
-## Analyse der Veröffentlichung
+## Inhaltliche Zusammenfassung
 
 ---
 
-## Beurteilung der Veröffentlichung
+## Themenbereich und Problemstellung
+
+- Virtualisierung von GPU-Rechenleistung
+
+- Docker Containerbasierte Virtualisierung
+
+- Keine zufriedenstellende Lösung
+
+- Mehrfache und geteilte Verwenden einer Grafikkarte 
+
+- Probleme beim Speichermanagement
+
+---
+
+## Umsetzung
+
+- Angepasster NVIDIA-Docker
+
+- Augenmerk auf drei Faktoren:
+  + Isolation
+  + Konsistenz
+  + Austauschbarkeit
+
+- Zwei Hauptbestandteile:
+  + CUDA wrapper API module
+  + GPU memory scheduler
+
+---
+
+---?image=assets/convgpu.png
+
+---
+
+## Analyse
+
+---
+
+## Beurteilung
