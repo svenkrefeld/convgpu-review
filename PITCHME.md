@@ -35,11 +35,9 @@
   + CUDA wrapper API module
   + GPU memory scheduler
 
----
+---?image=assets/image/convgpu.png&opacity=100
 
----?image=assets/convgpu.png
-
----
+@title[ConVGPU]
 
 ## Analyse
 
