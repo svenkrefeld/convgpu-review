@@ -67,6 +67,17 @@
 - Logischer Aufbau
 
 - Wissen über Docker und NVIDIA CUDA vorrausgesetzt
+
+---
+
+## Ergebnisse und Schlussfolgerungen
+
+- Ergebniszusammenfassung ist Verständnishilfe
+
+- Ergebnisse stecken noch in den Anfängen
+
+- Eher ein "Proof-of-Concept"
+
 ---
 
 ## Beurteilung
