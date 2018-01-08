@@ -81,3 +81,14 @@
 ---
 
 ## Beurteilung
+
+---
+
+- Eignet sich durchauch für ein Kongress
+
+- Spricht aber gezielte Gruppe an
+
+- Umgesetzte Lösung ist recht speziell
+  + Idee dahinter recht offen
+  
+- Noch keine fundierte Schlussfolgerung möglich
