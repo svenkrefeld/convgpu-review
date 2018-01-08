@@ -45,4 +45,16 @@
 
 ---
 
+## Relevanz
+
+- Docker sehr beliebtes Framework
+
+- NVIDIA CUDA Grafikkarten viel verwendet
+
+- Kombination wiederrum weniger
+
+- Vorteil wird nicht deutlich
+
+---
+
 ## Beurteilung
