@@ -57,4 +57,16 @@
 
 ---
 
+## Herangehensweise und Methodik
+
+- Gute Erläuterung der Technologien
+  + Wichtige Komponente fehlen jedoch
+  
+- Unklar worum es sich bei ConVGPU eigentlich handelt
+
+- Logischer Aufbau
+
+- Setzt einiges Wissen über Docker und NVIDIA CUDA vorraus
+---
+
 ## Beurteilung
