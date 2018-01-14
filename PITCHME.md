@@ -92,3 +92,8 @@
   + Idee dahinter recht offen
   
 - Noch keine fundierte Schlussfolgerung möglich
+
+Note:
+- Selbst im Team unschlüssig
+- Unklar, ob es weitere Arbeiten in diesem Gebiet gibt
+- 
