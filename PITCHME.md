@@ -78,6 +78,9 @@
 
 - Eher ein "Proof-of-Concept"
 
+Note:
+- Letzer Absatz, etwas 1/3 des Schlusses, spricht über nötige Verbesserungen
+
 ---
 
 ## Beurteilung
@@ -96,4 +99,3 @@
 Note:
 - Selbst im Team unschlüssig
 - Unklar, ob es weitere Arbeiten in diesem Gebiet gibt
-- 
