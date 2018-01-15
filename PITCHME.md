@@ -25,7 +25,7 @@ Note:
 
 - Gibt einige Ansätze GPU's zu virtualisieren
 
-- Dort wurden aber pro VM / Instanz eine GPU angesprochen
+- Dort wurden aber pro VM / Instanz eine einzelne GPU angesprochen
 
 - Bei Versuchen, dass mehrerer Nutzer sich eine GPU teilen, Speicherprobleme -> Deadlocks 
 
@@ -53,6 +53,15 @@ Note:
 
 ---?image=assets/image/convgpu.png&opacity=100&size=auto 90%
 @title[ConVGPU - Schaubild]
+
+Note:
+
+- CUDA Wrapper api module: fängt die anfrage ab, verwaltet diese
+  + anfragen ohne speicherzugriff werden direkt durchgereicht
+  + anfragen mit speicherzugriff an den GPU werden zum GPU memory scheduler gereicht
+  + dieser ordnet mittels algorithmus den speicher zu
+  + entweder First in first out also FIFO, Best-fit, recent use oder random
+  + best fit hat sich in den experimenten also bestes geeignet
 
 ---
 
