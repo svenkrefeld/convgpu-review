@@ -20,6 +20,15 @@
 
 - Probleme beim Speichermanagement
 
+Note:
+- Virtualisierung keiner ganzen VM wo eine ganze reale GPU eingebunden wird
+
+- Gibt einige Ansätze GPU's zu virtualisieren
+
+- Dort wurden aber pro VM / Instanz eine GPU angesprochen
+
+- Bei Versuchen, dass mehrerer Nutzer sich eine GPU teilen, Speicherprobleme -> Deadlocks 
+
 ---
 
 ## Umsetzung
@@ -35,8 +44,14 @@
   + CUDA wrapper API module
   + GPU memory scheduler
 
----?image=assets/image/convgpu.png&opacity=100&size=auto 90%
+Note:
+- NVIDIA stellt ein eigenen Docker für ihre Grafikkarten zur Verfügung
+- bisherige versuche können nicht containerbasiert laufen
+  + daher soll jede anfrage komplett isoliert laufen
+- das GPU memory management soll speicherprobleme und kollisonen verhinden und so konsistenz bieten
+- da auf die original CUDA API aufgebaut wird, muss kein extra aufwand betrieben werden, sollte es zum einsatz von ConVGPU kommen 
 
+---?image=assets/image/convgpu.png&opacity=100&size=auto 90%
 @title[ConVGPU - Schaubild]
 
 ---
