@@ -56,13 +56,19 @@
 - Vorteil wird nicht deutlich
 
 Note:
-- Es wird in der Arbeit angeführt, dass Docker ein beliebtes Framework ist. Ich denke diese Behauptung können wir alle bestätigen, nachdem wir gehört haben wie mächtig Docker ist. Aufgrund der Behauptung haben wir in unserem Review eine kleine Suche gestartet und festgestellt, dass sich die Anzahl an wissenschaftlichen Arbeiten, die sich auf Docker beziehen in den letzten Jahren fast linear steigt (ca. 4000-5000 pro Jahr). Das bedeutet, dass das Thema zwar nicht an Relevanz gewinnt, allerdings auch nicht abnimmt.
+- Docker ist mächtig und sinnvoll in einigen Anwendungsfällen
+- Zu Docker erscheinen jedes Jahr 4000-5000 wissenschaftliche Arbeiten
+- Docker ist auf jeden Fall relevant
 
-- NVIDIA CUDA wird häufig benutzt um parallelisierbare Aufgaben auszuführen, hiermit kann man die Architektur, den Speicher und die Rechenleistung einer Grafikkarte benutzen. Viele Grafikkarten unterstützen NVIDIA CUDA.
+- NVIDIA CUDA für parallelisierbare Aufgaben
+- Speicher, Rechenleistung und Architektur von Grafikkarten nutzen
 
-- Die Kombination von Docker und NVIDIA CUDA wird unseres Ermessens nach nicht sehr häufig gebraucht. Grund dafür ist vielleicht auch, dass im Text keine Beispiele angegeben werden, wofür man diese Kombination benutzen könnte.
+- Kombination von beidem in nicht sehr vielen Arbeiten zu finden
+- In der Presse wird die Kombination auch nicht erwähnt
+- Kein Beispiel in der Arbeit genannt, wofür man die Kombination nutzen könnte
 
-- Der Vorteil, den die Autoren in dem von ihnen behandelten Thema sehen, wird durch die Arbeit nicht dargestellt. Für jemanden, der genau diese Kombination braucht, kann die Arbeit aber durchaus von Relevanz sein.
+- Vorteil von Kombination nicht sichtbar
+- Wenn jemand genau diese Kombination braucht, sicher sinnvoll
 
 ---
 
@@ -78,13 +84,19 @@ Note:
 - Wissen über Docker und NVIDIA CUDA vorrausgesetzt
 
 Note:
-- Die verwendeten Technologien und der geschilderte Aufbau werden deutlich gemacht und sind gut zu verstehen. Einige wichtige Erklärungen fehlen jedoch, wären ganz hilfreich. Oder weiß jeder von euch worum es sich bei IOMMU (I/O memory management unit) handelt?
+- Verwendeten Technologien werden gut und ausführlich beschrieben
+- Einige wichtige Erklärungen fehlen
+  + z.B. IOMMU (I/O memory management unit)
 
-- Es wird durch den Aufbau nicht ganz klar worum es sich bei dem beschriebenen ConVGPU handelt. Es wird nicht deutlich, ob es komplett selbst geschrieben ist, aus verschiedenen Teilen zusammengesetzt wird. Ebenfalls ist nicht klar, ob das Programm, so wie es beschrieben wird komplett lauffähig ist.
+- nicht klar, was ConVGPU genau ist
+  + selbst erstellt?
+  + aus verschiedenen Teilen zusammengesetzt?
+  + ist das Programm überhaupt lauffähig?
+  
+- Arbeit verständlich aufgebaut
+  + erst Erklärungen, dann Zusammenhang und dann Versuch mit Ergebnissen
 
-- Die Arbeit ist verständlich aufgebaut, erst mit Erklärungen, dann mit Komponentenzusammenbau und danach mit den Versuchsergebnissen
-
-- Wenn man die Arbeit schnell verstehen will, muss man sich im Voraus mit NVIDIA CUDA und Docker auseinandergesetzt haben, da sonst Zeit benötigt wird um sich zu informieren.
+- Man muss Wissen über Docker und NVIDIA CUDA haben um das Thema durchdringen zu können
 
 ---
 
